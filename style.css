@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0E0E0E;
+}
+.screen-container{
+    margin: 100px auto;
+    position: relative;
+    height: 180px;
+    width: 530px;
+}
+.screen{
+    width: 500px;
+    height: 150px;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    pointer-events: none;
+}
+.container{
+    background: #000;
+    width: 700px;
+    height: 250px;
+    margin: 100px auto;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: 0 5px 40px #000;
+}
+.btn{
+    text-transform: lowercase;
+    font-size: 16px;
+    padding: 13px;
+    width: 55px;
+    background: #353230;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 22px;
+    margin-bottom: 3px;
+    right: 30px;
+}
+.grey-btn:hover{
+    background: #494543;
+}
+.dark-btn{
+    background: #181411;
+    color: #7C7977;
+}
+.dark-btn:hover{
+    background: #26201b;
+}
+.upper{
+    color: green;
+}
+.enter{
+    width: 80px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.numbers{
+    width: 85px;
+    color: #fff;
+}
+.space{
+    width: 250px;
+}
+.keyboard{
+    width: 80px;
+}
+.smiles{
+    width: 70px;
+}
+.language{
+    width: 70px;
+}
+.quote{
+    width: 70px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
